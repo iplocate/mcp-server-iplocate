@@ -1,8 +1,10 @@
 # MCP Server for IP address geolocation and network data from IPLocate.io
 
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=iplocate&config=eyJjb21tYW5kIjoibnB4IC15IEBpcGxvY2F0ZS9tY3Atc2VydmVyIiwiZW52Ijp7IklQTE9DQVRFX0FQSV9LRVkiOiIifX0%3D)
-
 An MCP (Model Context Protocol) server for [IPLocate.io](https://iplocate.io) - providing comprehensive IP address intelligence including geolocation, network information, privacy detection, and abuse contacts.
+
+<a href="https://glama.ai/mcp/servers/@iplocate/mcp-server-iplocate">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@iplocate/mcp-server-iplocate/badge" alt="IPLocate MCP server" />
+</a>
 
 ## Features
 
