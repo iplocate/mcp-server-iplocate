@@ -1,0 +1,40 @@
+{
+  "name": "@iplocate/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for IPLocate.io - IP address geolocation, network information, and threat detection",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-server-iplocate": "./dist/index.js"
+  },
+  "scripts": {
+    "prebuild": "node -p \"'export const LIB_VERSION = ' + JSON.stringify(require('./package.json').version) + ';'\" > src/version.ts",
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepare": "yarn build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "iplocate",
+    "ip-geolocation",
+    "ip-address",
+    "geolocation",
+    "threat-detection",
+    "vpn-detection"
+  ],
+  "author": "IPLocate",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
