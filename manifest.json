@@ -1,0 +1,64 @@
+{
+  "dxt_version": "0.1",
+  "name": "@iplocate/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for IPLocate.io - IP address geolocation, network information, and threat detection",
+  "author": {
+    "name": "IPLocate",
+    "email": "support@iplocate.io",
+    "url": "https://www.iplocate.io"
+  },
+  "homepage": "https://www.iplocate.io",
+  "documentation": "https://www.iplocate.io/docs",
+  "icon": "assets/icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/dist/index.js"
+      ],
+      "env": {}
+    }
+  },
+  "tools": [
+    {
+      "name": "lookup_ip_address_details",
+      "description": "Get comprehensive information about an IP address including all available data."
+    },
+    {
+      "name": "lookup_ip_address_location",
+      "description": "Get geographic location information for an IP address."
+    },
+    {
+      "name": "lookup_ip_address_privacy",
+      "description": "Check whether an IP address is a VPN, proxy, Tor exit node, or hosting provider."
+    },
+    {
+      "name": "lookup_ip_address_network",
+      "description": "Get network and ASN (Autonomous System Number) information for an IP address."
+    },
+    {
+      "name": "lookup_ip_address_company",
+      "description": "Get company/organization information for an IP address."
+    },
+    {
+      "name": "lookup_ip_address_abuse_contacts",
+      "description": "Get abuse contact information for an IP address to report malicious activity."
+    }
+  ],
+  "keywords": [
+    "iplocate",
+    "ip-geolocation",
+    "ip-address",
+    "geolocation",
+    "threat-detection",
+    "vpn-detection"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iplocate/mcp-server-iplocate"
+  }
+}

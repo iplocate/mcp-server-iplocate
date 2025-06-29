@@ -158,7 +158,7 @@ Get geographic location information for an IP address.
 
 #### `lookup_ip_address_privacy`
 
-Get privacy and security information for an IP address.
+Check whether an IP address is detected as a VPN, proxy, other anonymizing service; is on an abuse blocklist; or is a hosting provider.
 
 **Parameters:**
 
@@ -168,7 +168,7 @@ Get privacy and security information for an IP address.
 
 #### `lookup_ip_address_network`
 
-Get network and ASN (Autonomous System Number) information.
+Get network and ASN (Autonomous System Number) information for an IP address.
 
 **Parameters:**
 
@@ -188,7 +188,7 @@ Get company/organization information for an IP address.
 
 #### `lookup_ip_address_abuse_contacts`
 
-Get abuse contact information for reporting malicious activity.
+Get abuse contact information for an IP address to report malicious activity.
 
 **Parameters:**
 

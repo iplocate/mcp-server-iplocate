@@ -194,7 +194,7 @@ server.registerTool(
   "lookup_ip_address_privacy",
   {
     title: "Look up IP Address Privacy & Security",
-    description: "Get privacy and security information for an IP address including VPN, proxy, Tor, hosting, and abuse detection. Can look up any IPv4 or IPv6 address, or your own IP if no address is provided.",
+    description: "Check whether an IP address is detected as a VPN, proxy, other anonymizing service; is on an abuse blocklist; or is a hosting provider. Can look up any IPv4 or IPv6 address, or your own IP if no address is provided.",
     inputSchema: IPAddressSchema
   },
   async ({ ip }) => {
